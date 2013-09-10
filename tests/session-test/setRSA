@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<n:setReadingSystemAttributes xmlns:xsi="http://www.daisy.org/ns/daisy-online/" xmlns:n="http://www.daisy.org/ns/daisy-online/" xsi:type="supportedInputTypes_type0">
+<n:readingSystemAttributes xsi:type="readingSystemAttributes_type0">
+<n:manufacturer>Kolibre</n:manufacturer>
+<n:model>KolibreSampleClient</n:model>
+<n:version>0.0.1</n:version>
+<n:config xsi:type="config_type0">
+<n:supportsMultipleSelections>false</n:supportsMultipleSelections>
+<n:preferredUILanguage>sv</n:preferredUILanguage>
+<n:bandwidth>0</n:bandwidth>
+<n:supportedContentFormats xsi:type="supportedContentFormats_type0">
+<n:contentFormat>Daisy 2.02</n:contentFormat>
+</n:supportedContentFormats>
+<n:supportedContentProtectionFormats xsi:type="supportedContentProtectionFormats_type0"/>
+<n:supportedMimeTypes xsi:type="supportedMimeTypes_type0">
+<n:mimeType type="audio/ogg" xsi:type="mimeType_type0"/>
+</n:supportedMimeTypes>
+<n:supportedInputTypes xsi:type="supportedInputTypes_type0"/>
+<n:requiresAudioLabels>false</n:requiresAudioLabels>
+</n:config>
+</n:readingSystemAttributes>
+</n:setReadingSystemAttributes>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<n:logOn xmlns:n="http://www.daisy.org/ns/daisy-online/">
+<n:username>USERNAME</n:username>
+<n:password>PASSWORD</n:password>
+</n:logOn>
+</soapenv:Body>
+</soapenv:Envelope>
